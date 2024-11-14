@@ -14,7 +14,7 @@ Outputs are very similar to the Nonlinear Circuits original - a grid of 16 gate 
 
 ## Hardware notes
 
-The Arduino sketch requires 7 analogue inputs so I used an Arduino Pro Mini board mounted on the PCB rather than using an ATmega328P (only 6 analogue inputs) mounted directly on the board. This drives two CD4094B shift registers running at 6V which in turn drive the LED matrix and gate outputs. The 6V supply provides a normalled voltage to the probability and clock inputs via 10k resistors mounted on the input sockets; with the 50k input level potentiometers this provides 0 - 5V for each of the inputs in the absence of an external connection. Inputs are protected against out-of-range voltages. The LED matrix in the original is 3D printed and uses 16 green 3mm ultrabright LEDs. STL files for the LED matrix are on [Thingiverse](https://www.thingiverse.com/thing:6831147).
+The Arduino sketch requires 7 analogue inputs so I used an Arduino Pro Mini board mounted on the PCB rather than an ATmega328P (only 6 analogue inputs) mounted directly on the board. This drives two CD4094B shift registers running on 6V which in turn drive the LED matrix and gate outputs. The 6V supply provides a normalled voltage to the probability and clock inputs via 10k resistors mounted on the input sockets; with the 50k input level potentiometers this provides 0 - 5V for each of the inputs in the absence of an external connection. Inputs are protected against out-of-range voltages. The LED matrix in the original is 3D printed and uses 16 green 3mm ultrabright LEDs. STL files for the LED matrix are on [Thingiverse](https://www.thingiverse.com/thing:6831147).
 
 ## KiCad files
 
