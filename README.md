@@ -18,3 +18,4 @@ The Arduino sketch requires 7 analogue inputs so I used an Arduino Pro Mini boar
 
 ## KiCad files
 
+The schematic and PCB files are provided in KiCad 7 format plus a PDF of the schematic. The schematic uses some custom symbols and the PCB some custom footprints, so you will need to download my [custom KiCad libraries](https://github.com/clarionut/kiCad_libraries) and tell KiCad where to find them. The PCB file is intended to be processed by the KiCad 'Round Tracks' plugin but will work perfectly well without. I've included the Gerber files but these will only be useful if you mount the PCB on brackets behind and perpendicular to the front panel.
