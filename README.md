@@ -1,6 +1,6 @@
 # Cellular Automaton
 
-This repository contains details of an Arduino-based emulation of the [NonlinearCircuits Cellular Automata](https://www.nonlinearcircuits.com/modules/p/cellular-automata) synthesiser module.
+This repository contains details of an Arduino-based emulation of the [NonlinearCircuits Cellular Automata](https://www.nonlinearcircuits.com/modules/p/cellular-automata) synthesiser module but with additional functionality.
 
 ![CellularAutomaton](https://github.com/user-attachments/assets/e6e95f51-a603-4c6c-a3c2-eee641102247)
 
